@@ -1,10 +1,16 @@
 const criarTarefa = (evento) => {
-    evento.preventDefault()
+    evento.preventDefault()  //Evitar de a página ficar atualizando automaticamente 
 
     const input = document.querySelector('[data-form-input]')
     const valor = input.value
-    console.log(valor);
+   
+   
+    
+    const conteudo = `<p class="content">${valor}</p>`
+
+   
     input.value = " "
+
 }
 
 const novaTarefa = document.querySelector('[data-form-button]')
