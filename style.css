@@ -2,33 +2,36 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    margin: 120px;}
 
 .app{
     border: 1px  black;
     border-radius: 5px;
     padding: 20px;
-    background-color:indigo;
-    
-}
+    background-color:indigo;}
 
 .title{
     text-transform: uppercase;
-    font-weight: bolder;
     text-align: center;
-    color:white
-}
+    color:white}
 
 .form-input{
-    padding: 10px;
-}
+    padding: 10px;}
 
 .form-button{
     padding: 9px;
     font-size: 15px;
-}
+    text-transform: uppercase;
+    font-weight: bolder;}
+
+.form-button:hover{
+    cursor: pointer;}
 
 .list{
-    border: 1px solid indigo;
+    border: 1px solid rgb(153, 60, 219);
     color: white;
-}
+    width: 70%;
+    padding: 50px;
+    background-color: rgb(153, 60, 219);
+    list-style: none;
+    font-size: 20px;}
