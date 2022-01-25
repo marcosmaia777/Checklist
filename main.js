@@ -1,10 +1,14 @@
 'use strict'
-// botão
+
+const criarTarefa = (evento) => {
+    evento.preventDefault()
+    const input = document.querySelector("[data-form-input]")
+    const valor = input.value
+    console.log(valor)
+    input.value = "correr"}
+
+
+// Botão
 const novaAtividade = document.querySelector("[data-form-button]")
-
-
-// valor imput no console
-novaAtividade.addEventListener("click" , () =>{   
-    const imput = document.querySelector("[data-form-input]")
-    const valor = imput.value
-    console.log(valor)})
+// Eventos
+novaAtividade.addEventListener('click' , criarTarefa)   
