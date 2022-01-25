@@ -1,8 +1,10 @@
 'use strict'
-const button = document.querySelector("[data-form-button]")
+// botão
+const novaAtividade = document.querySelector("[data-form-button]")
 
-//eventos
-document.getElementById("button")
-    addEventListener('click', button)
 
-console.log(button)
+// valor imput no console
+novaAtividade.addEventListener("click" , () =>{   
+    const imput = document.querySelector("[data-form-input]")
+    const valor = imput.value
+    console.log(valor)})
