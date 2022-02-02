@@ -1,8 +1,4 @@
-/* <label class="todo__item">   
-<input type="checkbox">         
-<div>teste de item 2</div>     
-<input type="button" value="x">
-</label> */
+'use strict'
 
 const criarItem = (tarefa , status) => {
     const item = document.createElement('label')
