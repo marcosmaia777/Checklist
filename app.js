@@ -4,13 +4,15 @@
 <input type="button" value="x">
 </label> */
 
-const criarItem = (tarefa) => {
-    const item = document.creatElement('label')
+const criarItem = () => {
+    const item = document.createElement('label')
     item.classList.add('todo__item')
     item.innerHTML = `
             <input type="checkbox">          
-            <div>${tarefa}</div>     
+            <div>Caminhar</div>     
             <input type="button" value="x">
         `
-        document.getElementById('todoList').appendChild(item)
+        document.getElementById('todoList').appendChild(item);
 }
+
+
